@@ -75,8 +75,8 @@ body {
 
 
 }
-#card1 {
-    background-image: url(../img/maria.jpg);
+ 
+.img-data {
     align-self: flex-start;
     width: 50px;
     height: 50px;
@@ -90,129 +90,38 @@ body {
     flex-basis: 0;
     cursor: pointer;
  
-    
+}
+
+#card1 {
+    background-image: url(../img/maria.jpg);    
 }
 
 #card2 {
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
-
- 
-    
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.27.14.jpg);    
 }
 
 #card3 {
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.04.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
-
- 
-    
 }
 
 #card4 {
-    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
-    
-    
+    background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.28.30.jpg);    
 }
 
 #card5 {
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.34.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
-    
 }
 #card6 {
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.30.54.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
 
 }
 
 #card7 {
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.31.09.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
-
 }
 
 #card8 {
     background-image: url(../img/Screen\ Shot\ 2018-11-28\ at\ 15.32.44.jpg);
-    align-self: flex-start;
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    margin-left: 16px;
-    margin-top: 8px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    flex-grow: 1;
-    flex-basis: 0;
-    cursor: pointer;
 
 }
 
@@ -299,7 +208,7 @@ i {
 
 .box-logo {
     background-image: url(../img/hand.png);
-    display: flex;
+    display: inline-flex;
     flex-direction: column;
     width: 20rem;
     height: 20rem;
