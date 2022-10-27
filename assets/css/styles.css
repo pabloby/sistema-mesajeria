@@ -17,6 +17,10 @@ body {
     display: flex;
 }
 
+.flex-column {
+    flex-direction: column;
+}
+
 .inline-flex {
     display: inline-flex;
 }
@@ -125,13 +129,10 @@ body {
 
 }
 
-
-
 .info-container {
     background: #fff;
     height: 4rem;
 }
-
 
 .card-name {
     display: flex;
@@ -141,11 +142,8 @@ body {
     height: 1rem;
     justify-content: flex-start;
     margin: 0;
-    font-weight: 500;
-    
-    
+    font-weight: 500;    
 }
-
 
 .card-status-user {
     display: flex;
@@ -159,8 +157,6 @@ body {
     font-size: 14px;
     font-weight: 300;
     color: #BEC1BB;
-    
-
 }
 
 .icon {
@@ -171,13 +167,8 @@ body {
     height: 0.7rem;
     width: 1rem;
     padding: 1.7rem 0 0 3rem;
-    margin: 0;
-    
-    
-
-    
+    margin: 0;    
 }
-
 
 i {
     width:2rem;
@@ -193,7 +184,6 @@ i {
     padding: auto;
     width: 385px;
     height: 250px;
-
 }
 
 .button {
@@ -203,7 +193,6 @@ i {
     padding: 1rem 3rem;
     color: #fff;
     cursor: pointer;
-
 }
 
 .box-logo {
@@ -219,5 +208,4 @@ i {
     flex-basis: 0;
     cursor: pointer;
     float: inline-start;
-    
 }
